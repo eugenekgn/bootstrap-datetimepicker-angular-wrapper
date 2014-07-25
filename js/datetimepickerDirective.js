@@ -3,7 +3,7 @@
         $scope.vm = {
             message: "Bootstrap DateTimePicker Directive",
             dateTime: {},
-            dateTime : {}
+            dateTime : ""
         };
 
         $scope.$watch('change', function(){
